@@ -951,7 +951,7 @@ def create_beer_with_rating(score,  user)
 end  
 ```
 
-### FacotoryGirl-troubleshooting
+### FactoryGirl-troubleshooting
 
 Normaalisti rspec-tyhjentää tietokannan jokaisen testin suorituksen jälkeen. Tämä johtuu sitä, että oletusarvoisesti rspec suorittaa jokaisen testin transaktiossa, joka rollbackataan eli perutaan testin suorituksen jälkeen. Testit eivät siis todellisuudessa edes talleta mitään tietokantaan. 
 
